@@ -12,7 +12,8 @@
                     <a class="btn btn-outline-primary" aria-current="page" href="{{ route('homecomics') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-outline-primary" aria-current="page" href="#">Crea fumetto</a>
+                    <a class="btn btn-outline-primary" aria-current="page" href="{{ route('Comic.create') }}">Crea
+                        fumetto</a>
                 </li>
                 <li class="nav-item">
                     <a class="btn btn-outline-primary" aria-current="page" href="{{ route('Comic.index') }}">Tutti i

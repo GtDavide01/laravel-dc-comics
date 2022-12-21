@@ -8,7 +8,7 @@
             <div class="card mb-3" style="max-width: 800px;">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="{{ $comic->thumb }}" alt="Immagine non disponibile">
+                        <img src="{{ $comic->thumb }}" class="img-fluid rounded-start" alt="Immagine non disponibile">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
