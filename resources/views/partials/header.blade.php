@@ -9,13 +9,14 @@
         <div class="container w-100">
             <ul class="navbar-nav w-100 d-flex justify-content-between flex-row">
                 <li class="nav-item">
-                    <a class="btn btn-outline-primary" aria-current="page" href="#">Home</a>
+                    <a class="btn btn-outline-primary" aria-current="page" href="{{ route('homecomics') }}">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="btn btn-outline-primary" aria-current="page" href="#">Crea fumetto</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-outline-primary" aria-current="page" href="#">Tutti i fumetti</a>
+                    <a class="btn btn-outline-primary" aria-current="page" href="{{ route('Comic.index') }}">Tutti i
+                        fumetti</a>
                 </li>
             </ul>
         </div>
