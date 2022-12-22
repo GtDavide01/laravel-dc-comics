@@ -28,9 +28,14 @@
                                 <a href="{{ route('Comic.edit', $comic->id) }}" class=" btn btn-outline-success">
                                     <i class="fa-solid fa-pen-to-square"></i>
                                 </a>
-                                <a href="" class=" btn btn-outline-danger">
-                                    <i class="fa-solid fa-trash"></i>
-                                </a>
+                                <form class="d-inline" action="{{ route('Comic.destroy', $comic->id) }}" method="POST">
+                                    @method('DELETE')
+                                    @csrf
+                                    <button class=" btn btn-outline-danger">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </form>
+
                             </td>
                         </tr>
                     @endforeach
