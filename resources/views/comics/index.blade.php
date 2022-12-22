@@ -25,6 +25,12 @@
                                 <a href="{{ route('Comic.show', $comic->id) }}" class=" btn btn-outline-primary">
                                     <i class="fa-solid fa-eye"></i>
                                 </a>
+                                <a href="{{ route('Comic.edit', $comic->id) }}" class=" btn btn-outline-success">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </a>
+                                <a href="" class=" btn btn-outline-danger">
+                                    <i class="fa-solid fa-trash"></i>
+                                </a>
                             </td>
                         </tr>
                     @endforeach
